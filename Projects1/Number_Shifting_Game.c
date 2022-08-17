@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
-#include<windows.h>
+#include<windows.h>  // these header has included for printing multiple colors 
 #include<conio.h>
 
 //#define  size1 4
@@ -31,11 +31,11 @@
 
      */
 int matrix[4][4];  //  global matrix .
- // HANDLE h=GetStdHandle(STD_OUTPUT_HANDLE);
+
  int move=301;
  //char * ch;
-
-void NumberGenerator(void)
+// I have coded this function to generate the random number at every time  .
+void NumberGenerator(void)   
 
 {
         // this  function is generating the numbers randomly from 1 to till 15  .
@@ -73,7 +73,7 @@ void NumberGenerator(void)
 
 
 }
-
+// Here I have coded this funtion for printing the whole matrixes . 
  void print_the_number( )
  {
       // this function is printing the randomly values on the screen   .
@@ -258,7 +258,7 @@ void NumberGenerator(void)
           printf("\t------------------\n");
 
     }
-
+// I have coded this function for print all that rules of the game . 
  void Rules_of_Game()
  {
       HANDLE h=GetStdHandle(STD_OUTPUT_HANDLE);
@@ -293,7 +293,7 @@ void NumberGenerator(void)
 
  }
 
-
+// This printing _name is taking the user  . 
     char *  printing_name(char * ch)
       {
           HANDLE h=GetStdHandle(STD_OUTPUT_HANDLE);
@@ -303,7 +303,7 @@ void NumberGenerator(void)
           return ch;
 
       }
-
+// This function I have coded here for checiking is matrix sort or not from 1 to 15 
       int Check_matrix_sort_or_NOT()
       {
           int tar= 1  ;
@@ -351,7 +351,7 @@ void NumberGenerator(void)
       {
 
 
-           HANDLE h=GetStdHandle(STD_OUTPUT_HANDLE);
+           HANDLE h=GetStdHandle(STD_OUTPUT_HANDLE);   
 
                 char  name[30];
                 char * ch= printing_name(name);
