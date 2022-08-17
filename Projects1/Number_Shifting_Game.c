@@ -1,17 +1,17 @@
 
-                              /** Number Shifting Game **/
+                                                      /******* Number Shifting Game *******/
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
 #include<windows.h>  // these header has included for printing multiple colors 
 #include<conio.h>
 
-//#define  size1 4
+
     int row =3 ;
     int col = 3 ;
 
  /*
- // these are color section whose I  have used to print different kinds of colorful text .
+*******  these are color section whose I  have used to print different kinds of colorful text .**********
      color code
      cyan 3
       red 4
