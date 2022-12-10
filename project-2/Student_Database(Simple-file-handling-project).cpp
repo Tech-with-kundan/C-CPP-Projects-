@@ -26,6 +26,9 @@ class student
         ID++;
 
         ofstream fout;
+        // Here I have set the location for my file where I want to store student data . 
+        // If you are  running this file then make sure that change the file location according to  you. Don't keep it default . 
+        //Because this is my file location  particularly specified by me on my local PC . 
         fout.open("C:/Users/LENOVO/Desktop/cpp notes/student.text",ios::app);
         fout<<"\n"<<ID;
         fout<<"\n"<<name;
